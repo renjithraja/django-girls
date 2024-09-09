@@ -85,7 +85,7 @@ DATABASES = {
 }
 
 DATABASES = {
-    'default': dj_database_url(
+    'default': dj_database_url.parse(
         "postgresql://django_a4wf_user:1Kvfqn8SAuXk5ui8wKPzjdZeTwFnkc85@dpg-crfan65ds78s73cjpu00-a.singapore-postgres.render.com/django_a4wf"
     )
 }
